@@ -1,0 +1,120 @@
+﻿<?xml version="1.0" encoding="utf-8"?><Database Name="Monolito4amDB" Class="DataClasses1DataContext" xmlns="http://schemas.microsoft.com/linqtosql/dbml/2007">
+  <Connection Mode="AppSettings" ConnectionString="Data Source=Monolito4amDB.mssql.somee.com;Initial Catalog=Monolito4amDB;User ID=Jose_Abraham_SQLLogin_1;Encrypt=False;Trust Server Certificate=True" SettingsObjectName="Capa_Datos.Properties.Settings" SettingsPropertyName="Monolito4amDBConnectionString" Provider="System.Data.SqlClient" />
+  <Table Name="dbo.tbl_fotos_productos" Member="tbl_fotos_productos">
+    <Type Name="tbl_fotos_productos">
+      <Column Name="fpro_id" Type="System.Int32" DbType="Int NOT NULL IDENTITY" IsPrimaryKey="true" IsDbGenerated="true" CanBeNull="false" />
+      <Column Name="pro_id" Type="System.Int32" DbType="Int NOT NULL" CanBeNull="false" />
+      <Column Name="fpro_ruta_imagen" Type="System.String" DbType="VarChar(250) NOT NULL" CanBeNull="false" />
+      <Column Name="fpro_nombre_archivo" Type="System.String" DbType="VarChar(150)" CanBeNull="true" />
+      <Column Name="fpro_fecha_subida" Type="System.DateTime" DbType="DateTime" CanBeNull="true" />
+      <Column Name="fpro_es_principal" Type="System.Boolean" DbType="Bit" CanBeNull="true" />
+      <Association Name="tbl_productos_tbl_fotos_productos" Member="tbl_productos" ThisKey="pro_id" OtherKey="pro_id" Type="tbl_productos" IsForeignKey="true" DeleteRule="CASCADE" DeleteOnNull="true" />
+    </Type>
+  </Table>
+  <Table Name="dbo.tbl_productos" Member="tbl_productos">
+    <Type Name="tbl_productos">
+      <Column Name="pro_id" Type="System.Int32" DbType="Int NOT NULL IDENTITY" IsPrimaryKey="true" IsDbGenerated="true" CanBeNull="false" />
+      <Column Name="pro_nombre" Type="System.String" DbType="VarChar(50)" CanBeNull="true" />
+      <Column Name="pro_cantidad" Type="System.Int32" DbType="Int" CanBeNull="true" />
+      <Column Name="pro_precio" Type="System.Decimal" DbType="Decimal(18,2)" CanBeNull="true" />
+      <Column Name="pro_estado" Type="System.Char" DbType="Char(1)" CanBeNull="true" />
+      <Column Name="prov_id" Type="System.Int32" DbType="Int" CanBeNull="true" />
+      <Column Name="pro_codigo" Type="System.String" DbType="VarChar(50)" CanBeNull="true" />
+      <Column Name="pro_descripcion" Type="System.String" DbType="VarChar(250)" CanBeNull="true" />
+      <Association Name="tbl_productos_tbl_fotos_productos" Member="tbl_fotos_productos" ThisKey="pro_id" OtherKey="pro_id" Type="tbl_fotos_productos" />
+      <Association Name="tbl_proveedor_tbl_productos" Member="tbl_proveedor" ThisKey="prov_id" OtherKey="prov_id" Type="tbl_proveedor" IsForeignKey="true" />
+    </Type>
+  </Table>
+  <Table Name="dbo.tbl_productos_eliminado" Member="tbl_productos_eliminado">
+    <Type Name="tbl_productos_eliminado">
+      <Column Name="pro_id" Type="System.Int32" DbType="Int NOT NULL" IsPrimaryKey="true" CanBeNull="false" />
+      <Column Name="pro_nombre" Type="System.String" DbType="VarChar(50)" CanBeNull="true" />
+      <Column Name="pro_codigo" Type="System.String" DbType="VarChar(50)" CanBeNull="true" />
+      <Column Name="pro_descripcion" Type="System.String" DbType="VarChar(250)" CanBeNull="true" />
+      <Column Name="pro_cantidad" Type="System.Int32" DbType="Int" CanBeNull="true" />
+      <Column Name="pro_precio" Type="System.Decimal" DbType="Decimal(18,2)" CanBeNull="true" />
+      <Column Name="prov_id" Type="System.Int32" DbType="Int" CanBeNull="true" />
+      <Column Name="pro_estado" Type="System.Char" DbType="Char(1)" CanBeNull="true" />
+      <Column Name="fecha_eliminacion" Type="System.DateTime" DbType="DateTime" CanBeNull="true" />
+    </Type>
+  </Table>
+  <Table Name="dbo.tbl_proveedor" Member="tbl_proveedor">
+    <Type Name="tbl_proveedor">
+      <Column Name="prov_id" Type="System.Int32" DbType="Int NOT NULL IDENTITY" IsPrimaryKey="true" IsDbGenerated="true" CanBeNull="false" />
+      <Column Name="prov_nombre" Type="System.String" DbType="VarChar(50)" CanBeNull="true" />
+      <Column Name="prov_estado" Type="System.Char" DbType="Char(1)" CanBeNull="true" />
+      <Column Name="prov_ruc" Type="System.String" DbType="VarChar(13)" CanBeNull="true" />
+      <Column Name="prov_telefono" Type="System.String" DbType="VarChar(15)" CanBeNull="true" />
+      <Column Name="prov_correo" Type="System.String" DbType="VarChar(100)" CanBeNull="true" />
+      <Association Name="tbl_proveedor_tbl_productos" Member="tbl_productos" ThisKey="prov_id" OtherKey="prov_id" Type="tbl_productos" />
+    </Type>
+  </Table>
+  <Table Name="dbo.tbl_proveedor_eliminado" Member="tbl_proveedor_eliminado">
+    <Type Name="tbl_proveedor_eliminado">
+      <Column Name="prov_id" Type="System.Int32" DbType="Int NOT NULL" IsPrimaryKey="true" CanBeNull="false" />
+      <Column Name="prov_nombre" Type="System.String" DbType="VarChar(50)" CanBeNull="true" />
+      <Column Name="prov_estado" Type="System.Char" DbType="Char(1)" CanBeNull="true" />
+      <Column Name="prov_ruc" Type="System.String" DbType="VarChar(13)" CanBeNull="true" />
+      <Column Name="prov_telefono" Type="System.String" DbType="VarChar(15)" CanBeNull="true" />
+      <Column Name="prov_correo" Type="System.String" DbType="VarChar(100)" CanBeNull="true" />
+      <Column Name="fecha_eliminacion" Type="System.DateTime" DbType="DateTime" CanBeNull="true" />
+    </Type>
+  </Table>
+  <Table Name="dbo.tbl_tipo_usuario" Member="tbl_tipo_usuario">
+    <Type Name="tbl_tipo_usuario">
+      <Column Name="tusu_id" Type="System.Int32" DbType="Int NOT NULL IDENTITY" IsPrimaryKey="true" IsDbGenerated="true" CanBeNull="false" />
+      <Column Name="tusu_nombre" Type="System.String" DbType="VarChar(50)" CanBeNull="true" />
+      <Column Name="tusu_estado" Type="System.Char" DbType="Char(1)" CanBeNull="true" />
+      <Association Name="tbl_tipo_usuario_tbl_usario" Member="tbl_usario" ThisKey="tusu_id" OtherKey="tusu_id" Type="tbl_usario" />
+    </Type>
+  </Table>
+  <Table Name="dbo.tbl_usario" Member="tbl_usario">
+    <Type Name="tbl_usario">
+      <Column Name="usu_id" Type="System.Int32" DbType="Int NOT NULL IDENTITY" IsPrimaryKey="true" IsDbGenerated="true" CanBeNull="false" />
+      <Column Name="usu_cedula" Type="System.String" DbType="VarChar(10)" CanBeNull="true" />
+      <Column Name="usu_nombres" Type="System.String" DbType="VarChar(50)" CanBeNull="true" />
+      <Column Name="usu_apellidos" Type="System.String" DbType="VarChar(50)" CanBeNull="true" />
+      <Column Name="usu_direccion" Type="System.String" DbType="VarChar(50)" CanBeNull="true" />
+      <Column Name="usu_celular" Type="System.String" DbType="VarChar(10)" CanBeNull="true" />
+      <Column Name="usu_correo" Type="System.String" DbType="VarChar(150)" CanBeNull="true" />
+      <Column Name="usu_fecha_creacion" Type="System.DateTime" DbType="DateTime" CanBeNull="true" />
+      <Column Name="usu_fecha_cumple" Type="System.DateTime" DbType="Date" CanBeNull="true" />
+      <Column Name="usu_nick" Type="System.String" DbType="VarChar(50)" CanBeNull="true" />
+      <Column Name="usu_contraseña" Type="System.Data.Linq.Binary" DbType="VarBinary(MAX)" CanBeNull="true" UpdateCheck="Never" />
+      <Column Name="usu_intentos" Type="System.Int32" DbType="Int" CanBeNull="true" />
+      <Column Name="usu_estado" Type="System.Char" DbType="Char(1)" CanBeNull="true" />
+      <Column Name="tusu_id" Type="System.Int32" DbType="Int" CanBeNull="true" />
+      <Column Name="usu_fecha_ultimo_intento" Type="System.DateTime" DbType="DateTime" CanBeNull="true" />
+      <Column Name="usu_codigo_OTP" Type="System.Data.Linq.Binary" DbType="VarBinary(MAX)" CanBeNull="true" UpdateCheck="Never" />
+      <Column Name="usu_bloqueado" Type="System.Boolean" DbType="Bit NOT NULL" CanBeNull="false" />
+      <Column Name="usu_record" Type="System.Int32" DbType="Int" CanBeNull="true" />
+      <Association Name="tbl_usario_tbl_usuario_foto" Member="tbl_usuario_foto" ThisKey="usu_id" OtherKey="usu_id" Type="tbl_usuario_foto" />
+      <Association Name="tbl_tipo_usuario_tbl_usario" Member="tbl_tipo_usuario" ThisKey="tusu_id" OtherKey="tusu_id" Type="tbl_tipo_usuario" IsForeignKey="true" />
+    </Type>
+  </Table>
+  <Table Name="dbo.tbl_usuario_foto" Member="tbl_usuario_foto">
+    <Type Name="tbl_usuario_foto">
+      <Column Name="id" Type="System.Int32" DbType="Int NOT NULL IDENTITY" IsPrimaryKey="true" IsDbGenerated="true" CanBeNull="false" />
+      <Column Name="usu_id" Type="System.Int32" DbType="Int NOT NULL" CanBeNull="false" />
+      <Column Name="foto" Type="System.Data.Linq.Binary" DbType="VarBinary(MAX) NOT NULL" CanBeNull="false" UpdateCheck="Never" />
+      <Column Name="nombre_archivo" Type="System.String" DbType="VarChar(150)" CanBeNull="true" />
+      <Column Name="fecha_subida" Type="System.DateTime" DbType="DateTime" CanBeNull="true" />
+      <Column Name="es_principal" Type="System.Boolean" DbType="Bit" CanBeNull="true" />
+      <Association Name="tbl_usario_tbl_usuario_foto" Member="tbl_usario" ThisKey="usu_id" OtherKey="usu_id" Type="tbl_usario" IsForeignKey="true" />
+    </Type>
+  </Table>
+  <Function Name="dbo.sp_ReiniciarIdentityProveedor" Method="sp_ReiniciarIdentityProveedor">
+    <Return Type="System.Int32" />
+  </Function>
+  <Function Name="dbo.sp_ReiniciarIntentosDiarios" Method="sp_ReiniciarIntentosDiarios">
+    <Return Type="System.Int32" />
+  </Function>
+  <Function Name="dbo.desencriptacon" Method="desencriptacon" IsComposable="true">
+    <Parameter Name="clave" Type="System.Data.Linq.Binary" DbType="VarBinary(MAX)" />
+    <Return Type="System.String" />
+  </Function>
+  <Function Name="dbo.encriptacon" Method="encriptacon" IsComposable="true">
+    <Parameter Name="clave" Type="System.String" DbType="VarChar(50)" />
+    <Return Type="System.Data.Linq.Binary" />
+  </Function>
+</Database>

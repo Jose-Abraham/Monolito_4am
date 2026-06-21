@@ -1,0 +1,158 @@
+﻿<?xml version='1.0' encoding='utf-8'?>
+<SettingsFile xmlns="http://schemas.microsoft.com/VisualStudio/2004/01/settings" CurrentProfile="(Default)" GeneratedClassNamespace="Capa_Datos.Properties" GeneratedClassName="Settings">
+  <Profiles />
+  <Settings>
+    <Setting Name="Monolito4amConnectionString" Type="(Connection string)" Scope="Application">
+      <DesignTimeValue Profile="(Default)">&lt;?xml version="1.0" encoding="utf-16"?&gt;
+&lt;SerializableConnectionString xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"&gt;
+  &lt;ConnectionString&gt;Data Source=192.168.12.175,1433;Initial Catalog=Monolito4am;User ID=sa;Password=Joseabraham21;Encrypt=False&lt;/ConnectionString&gt;
+  &lt;ProviderName&gt;System.Data.SqlClient&lt;/ProviderName&gt;
+&lt;/SerializableConnectionString&gt;</DesignTimeValue>
+      <Value Profile="(Default)">Data Source=192.168.12.175,1433;Initial Catalog=Monolito4am;User ID=sa;Password=Joseabraham21;Encrypt=False</Value>
+    </Setting>
+    <Setting Name="Monolito4amConnectionString1" Type="(Connection string)" Scope="Application">
+      <DesignTimeValue Profile="(Default)">&lt;?xml version="1.0" encoding="utf-16"?&gt;
+&lt;SerializableConnectionString xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"&gt;
+  &lt;ConnectionString&gt;Data Source=192.168.12.201,1433;Initial Catalog=Monolito4am;User ID=sa;Password=Joseabraham21;Encrypt=False&lt;/ConnectionString&gt;
+  &lt;ProviderName&gt;System.Data.SqlClient&lt;/ProviderName&gt;
+&lt;/SerializableConnectionString&gt;</DesignTimeValue>
+      <Value Profile="(Default)">Data Source=192.168.12.201,1433;Initial Catalog=Monolito4am;User ID=sa;Password=Joseabraham21;Encrypt=False</Value>
+    </Setting>
+    <Setting Name="Monolito4amConnectionString2" Type="(Connection string)" Scope="Application">
+      <DesignTimeValue Profile="(Default)">&lt;?xml version="1.0" encoding="utf-16"?&gt;
+&lt;SerializableConnectionString xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"&gt;
+  &lt;ConnectionString&gt;Data Source=192.168.12.180,1433;Initial Catalog=Monolito4am;User ID=sa;Password=Joseabraham21;Encrypt=False&lt;/ConnectionString&gt;
+  &lt;ProviderName&gt;System.Data.SqlClient&lt;/ProviderName&gt;
+&lt;/SerializableConnectionString&gt;</DesignTimeValue>
+      <Value Profile="(Default)">Data Source=192.168.12.180,1433;Initial Catalog=Monolito4am;User ID=sa;Password=Joseabraham21;Encrypt=False</Value>
+    </Setting>
+    <Setting Name="Monolito4amConnectionString3" Type="(Connection string)" Scope="Application">
+      <DesignTimeValue Profile="(Default)">&lt;?xml version="1.0" encoding="utf-16"?&gt;
+&lt;SerializableConnectionString xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"&gt;
+  &lt;ConnectionString&gt;Data Source=192.168.12.115,1433;Initial Catalog=Monolito4am;User ID=sa;Password=Joseabraham21;Encrypt=False&lt;/ConnectionString&gt;
+  &lt;ProviderName&gt;System.Data.SqlClient&lt;/ProviderName&gt;
+&lt;/SerializableConnectionString&gt;</DesignTimeValue>
+      <Value Profile="(Default)">Data Source=192.168.12.115,1433;Initial Catalog=Monolito4am;User ID=sa;Password=Joseabraham21;Encrypt=False</Value>
+    </Setting>
+    <Setting Name="Monolito4amConnectionString4" Type="(Connection string)" Scope="Application">
+      <DesignTimeValue Profile="(Default)">&lt;?xml version="1.0" encoding="utf-16"?&gt;
+&lt;SerializableConnectionString xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"&gt;
+  &lt;ConnectionString&gt;Data Source=192.168.100.54,1433;Initial Catalog=Monolito4am;User ID=sa;Password=Joseabraham21;Encrypt=False&lt;/ConnectionString&gt;
+  &lt;ProviderName&gt;System.Data.SqlClient&lt;/ProviderName&gt;
+&lt;/SerializableConnectionString&gt;</DesignTimeValue>
+      <Value Profile="(Default)">Data Source=192.168.100.54,1433;Initial Catalog=Monolito4am;User ID=sa;Password=Joseabraham21;Encrypt=False</Value>
+    </Setting>
+    <Setting Name="Monolito4amConnectionString5" Type="(Connection string)" Scope="Application">
+      <DesignTimeValue Profile="(Default)">&lt;?xml version="1.0" encoding="utf-16"?&gt;
+&lt;SerializableConnectionString xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"&gt;
+  &lt;ConnectionString&gt;Data Source=192.168.13.15,1433;Initial Catalog=Monolito4am;User ID=sa;Password=Joseabraham21;Encrypt=False&lt;/ConnectionString&gt;
+  &lt;ProviderName&gt;System.Data.SqlClient&lt;/ProviderName&gt;
+&lt;/SerializableConnectionString&gt;</DesignTimeValue>
+      <Value Profile="(Default)">Data Source=192.168.13.15,1433;Initial Catalog=Monolito4am;User ID=sa;Password=Joseabraham21;Encrypt=False</Value>
+    </Setting>
+    <Setting Name="Monolito4amConnectionString6" Type="(Connection string)" Scope="Application">
+      <DesignTimeValue Profile="(Default)">&lt;?xml version="1.0" encoding="utf-16"?&gt;
+&lt;SerializableConnectionString xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"&gt;
+  &lt;ConnectionString&gt;Data Source=192.168.12.178,1433;Initial Catalog=Monolito4am;User ID=sa;Password=Joseabraham21;Encrypt=False&lt;/ConnectionString&gt;
+  &lt;ProviderName&gt;System.Data.SqlClient&lt;/ProviderName&gt;
+&lt;/SerializableConnectionString&gt;</DesignTimeValue>
+      <Value Profile="(Default)">Data Source=192.168.12.178,1433;Initial Catalog=Monolito4am;User ID=sa;Password=Joseabraham21;Encrypt=False</Value>
+    </Setting>
+    <Setting Name="Monolito4amConnectionString7" Type="(Connection string)" Scope="Application">
+      <DesignTimeValue Profile="(Default)">&lt;?xml version="1.0" encoding="utf-16"?&gt;
+&lt;SerializableConnectionString xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"&gt;
+  &lt;ConnectionString&gt;Data Source=192.168.12.151,1433;Initial Catalog=Monolito4am;User ID=sa;Password=Joseabraham21;Encrypt=False&lt;/ConnectionString&gt;
+  &lt;ProviderName&gt;System.Data.SqlClient&lt;/ProviderName&gt;
+&lt;/SerializableConnectionString&gt;</DesignTimeValue>
+      <Value Profile="(Default)">Data Source=192.168.12.151,1433;Initial Catalog=Monolito4am;User ID=sa;Password=Joseabraham21;Encrypt=False</Value>
+    </Setting>
+    <Setting Name="Monolito4amConnectionString8" Type="(Connection string)" Scope="Application">
+      <DesignTimeValue Profile="(Default)">&lt;?xml version="1.0" encoding="utf-16"?&gt;
+&lt;SerializableConnectionString xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"&gt;
+  &lt;ConnectionString&gt;Data Source=192.168.12.65,1433;Initial Catalog=Monolito4am;User ID=sa;Password=Joseabraham21;Encrypt=False&lt;/ConnectionString&gt;
+  &lt;ProviderName&gt;System.Data.SqlClient&lt;/ProviderName&gt;
+&lt;/SerializableConnectionString&gt;</DesignTimeValue>
+      <Value Profile="(Default)">Data Source=192.168.12.65,1433;Initial Catalog=Monolito4am;User ID=sa;Password=Joseabraham21;Encrypt=False</Value>
+    </Setting>
+    <Setting Name="Monolito4amConnectionString9" Type="(Connection string)" Scope="Application">
+      <DesignTimeValue Profile="(Default)">&lt;?xml version="1.0" encoding="utf-16"?&gt;
+&lt;SerializableConnectionString xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"&gt;
+  &lt;ConnectionString&gt;Data Source=192.168.12.164,1433;Initial Catalog=Monolito4am;User ID=sa;Password=Joseabraham21;Encrypt=False&lt;/ConnectionString&gt;
+  &lt;ProviderName&gt;System.Data.SqlClient&lt;/ProviderName&gt;
+&lt;/SerializableConnectionString&gt;</DesignTimeValue>
+      <Value Profile="(Default)">Data Source=192.168.12.164,1433;Initial Catalog=Monolito4am;User ID=sa;Password=Joseabraham21;Encrypt=False</Value>
+    </Setting>
+    <Setting Name="Monolito4amConnectionString10" Type="(Connection string)" Scope="Application">
+      <DesignTimeValue Profile="(Default)">&lt;?xml version="1.0" encoding="utf-16"?&gt;
+&lt;SerializableConnectionString xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"&gt;
+  &lt;ConnectionString&gt;Data Source=192.168.10.104,1433;Initial Catalog=Monolito4am;User ID=sa;Password=Joseabraham21;Encrypt=False&lt;/ConnectionString&gt;
+  &lt;ProviderName&gt;System.Data.SqlClient&lt;/ProviderName&gt;
+&lt;/SerializableConnectionString&gt;</DesignTimeValue>
+      <Value Profile="(Default)">Data Source=192.168.10.104,1433;Initial Catalog=Monolito4am;User ID=sa;Password=Joseabraham21;Encrypt=False</Value>
+    </Setting>
+    <Setting Name="Monolito4amConnectionString11" Type="(Connection string)" Scope="Application">
+      <DesignTimeValue Profile="(Default)">&lt;?xml version="1.0" encoding="utf-16"?&gt;
+&lt;SerializableConnectionString xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"&gt;
+  &lt;ConnectionString&gt;Data Source=192.168.12.140,1433;Initial Catalog=Monolito4am;User ID=sa;Password=Joseabraham21;Encrypt=False&lt;/ConnectionString&gt;
+  &lt;ProviderName&gt;System.Data.SqlClient&lt;/ProviderName&gt;
+&lt;/SerializableConnectionString&gt;</DesignTimeValue>
+      <Value Profile="(Default)">Data Source=192.168.12.140,1433;Initial Catalog=Monolito4am;User ID=sa;Password=Joseabraham21;Encrypt=False</Value>
+    </Setting>
+    <Setting Name="Monolito4amConnectionString12" Type="(Connection string)" Scope="Application">
+      <DesignTimeValue Profile="(Default)">&lt;?xml version="1.0" encoding="utf-16"?&gt;
+&lt;SerializableConnectionString xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"&gt;
+  &lt;ConnectionString&gt;Data Source=192.168.12.185,1433;Initial Catalog=Monolito4am;User ID=sa;Password=Joseabraham21;Encrypt=False&lt;/ConnectionString&gt;
+  &lt;ProviderName&gt;System.Data.SqlClient&lt;/ProviderName&gt;
+&lt;/SerializableConnectionString&gt;</DesignTimeValue>
+      <Value Profile="(Default)">Data Source=192.168.12.185,1433;Initial Catalog=Monolito4am;User ID=sa;Password=Joseabraham21;Encrypt=False</Value>
+    </Setting>
+    <Setting Name="Monolito4amConnectionString13" Type="(Connection string)" Scope="Application">
+      <DesignTimeValue Profile="(Default)">&lt;?xml version="1.0" encoding="utf-16"?&gt;
+&lt;SerializableConnectionString xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"&gt;
+  &lt;ConnectionString&gt;Data Source=192.168.12.80,1433;Initial Catalog=Monolito4am;User ID=sa;Password=Joseabraham21;Encrypt=False&lt;/ConnectionString&gt;
+  &lt;ProviderName&gt;System.Data.SqlClient&lt;/ProviderName&gt;
+&lt;/SerializableConnectionString&gt;</DesignTimeValue>
+      <Value Profile="(Default)">Data Source=192.168.12.80,1433;Initial Catalog=Monolito4am;User ID=sa;Password=Joseabraham21;Encrypt=False</Value>
+    </Setting>
+    <Setting Name="Monolito4amConnectionString14" Type="(Connection string)" Scope="Application">
+      <DesignTimeValue Profile="(Default)">&lt;?xml version="1.0" encoding="utf-16"?&gt;
+&lt;SerializableConnectionString xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"&gt;
+  &lt;ConnectionString&gt;Data Source=192.168.12.119,1433;Initial Catalog=Monolito4am;User ID=sa;Password=Joseabraham21;Encrypt=False&lt;/ConnectionString&gt;
+  &lt;ProviderName&gt;System.Data.SqlClient&lt;/ProviderName&gt;
+&lt;/SerializableConnectionString&gt;</DesignTimeValue>
+      <Value Profile="(Default)">Data Source=192.168.12.119,1433;Initial Catalog=Monolito4am;User ID=sa;Password=Joseabraham21;Encrypt=False</Value>
+    </Setting>
+    <Setting Name="Monolito4amConnectionString15" Type="(Connection string)" Scope="Application">
+      <DesignTimeValue Profile="(Default)">&lt;?xml version="1.0" encoding="utf-16"?&gt;
+&lt;SerializableConnectionString xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"&gt;
+  &lt;ConnectionString&gt;Data Source=192.168.12.131,1433;Initial Catalog=Monolito4am;User ID=sa;Password=Joseabraham21;Encrypt=False&lt;/ConnectionString&gt;
+  &lt;ProviderName&gt;System.Data.SqlClient&lt;/ProviderName&gt;
+&lt;/SerializableConnectionString&gt;</DesignTimeValue>
+      <Value Profile="(Default)">Data Source=192.168.12.131,1433;Initial Catalog=Monolito4am;User ID=sa;Password=Joseabraham21;Encrypt=False</Value>
+    </Setting>
+    <Setting Name="Monolito4amConnectionString16" Type="(Connection string)" Scope="Application">
+      <DesignTimeValue Profile="(Default)">&lt;?xml version="1.0" encoding="utf-16"?&gt;
+&lt;SerializableConnectionString xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"&gt;
+  &lt;ConnectionString&gt;Data Source=192.168.100.166,1433;Initial Catalog=Monolito4am;User ID=sa;Password=Joseabraham21;Encrypt=False&lt;/ConnectionString&gt;
+  &lt;ProviderName&gt;System.Data.SqlClient&lt;/ProviderName&gt;
+&lt;/SerializableConnectionString&gt;</DesignTimeValue>
+      <Value Profile="(Default)">Data Source=192.168.100.166,1433;Initial Catalog=Monolito4am;User ID=sa;Password=Joseabraham21;Encrypt=False</Value>
+    </Setting>
+    <Setting Name="Monolito4amConnectionString17" Type="(Connection string)" Scope="Application">
+      <DesignTimeValue Profile="(Default)">&lt;?xml version="1.0" encoding="utf-16"?&gt;
+&lt;SerializableConnectionString xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"&gt;
+  &lt;ConnectionString&gt;Data Source=192.168.12.110,1433;Initial Catalog=Monolito4am;User ID=sa;Password=Joseabraham21;Encrypt=False&lt;/ConnectionString&gt;
+  &lt;ProviderName&gt;System.Data.SqlClient&lt;/ProviderName&gt;
+&lt;/SerializableConnectionString&gt;</DesignTimeValue>
+      <Value Profile="(Default)">Data Source=192.168.12.110,1433;Initial Catalog=Monolito4am;User ID=sa;Password=Joseabraham21;Encrypt=False</Value>
+    </Setting>
+    <Setting Name="Monolito4amDBConnectionString" Type="(Connection string)" Scope="Application">
+      <DesignTimeValue Profile="(Default)">&lt;?xml version="1.0" encoding="utf-16"?&gt;
+&lt;SerializableConnectionString xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"&gt;
+  &lt;ConnectionString&gt;Data Source=Monolito4amDB.mssql.somee.com;Initial Catalog=Monolito4amDB;User ID=Jose_Abraham_SQLLogin_1;Password=35hf8c9xku;Encrypt=False;TrustServerCertificate=True&lt;/ConnectionString&gt;
+  &lt;ProviderName&gt;System.Data.SqlClient&lt;/ProviderName&gt;
+&lt;/SerializableConnectionString&gt;</DesignTimeValue>
+      <Value Profile="(Default)">Data Source=Monolito4amDB.mssql.somee.com;Initial Catalog=Monolito4amDB;User ID=Jose_Abraham_SQLLogin_1;Password=35hf8c9xku;Encrypt=False;TrustServerCertificate=True</Value>
+    </Setting>
+  </Settings>
+</SettingsFile>
