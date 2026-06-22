@@ -11,8 +11,9 @@ pipeline {
     stages {
         stage('1. Restaurar paquetes NuGet') {
             steps {
-                echo 'Restaurando paquetes NuGet de la solución...'
-                bat "\"${MSBUILD}\" Monolito_4am.slnx /t:Restore"
+                echo 'Restaurando paquetes NuGet de toda la solución...'
+                // Forzamos a nuget.exe a reconstruir la carpeta packages por completo
+                bat "nuget restore Monolito_4am.slnx"
             }
         }
         
