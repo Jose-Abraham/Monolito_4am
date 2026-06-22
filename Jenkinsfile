@@ -1,5 +1,4 @@
 pipeline {
-    // Le dice a Jenkins que busque obligatoriamente tu agente local de Windows
     agent { 
         label 'windows-dev' 
     }
@@ -13,14 +12,14 @@ pipeline {
         stage('1. Restaurar paquetes NuGet') {
             steps {
                 echo 'Restaurando paquetes NuGet de la solución...'
-                bat "\"${MSBUILD}\" Monolito_4am.sln /t:Restore"
+                bat "\"${MSBUILD}\" Monolito_4am.slnx /t:Restore"
             }
         }
         
         stage('2. Compilar solución') {
             steps {
                 echo 'Compilando proyecto ASP.NET en arquitectura de 3 capas...'
-                bat "\"${MSBUILD}\" Monolito_4am.sln /p:Configuration=Release /p:Platform=\"Any CPU\""
+                bat "\"${MSBUILD}\" Monolito_4am.slnx /p:Configuration=Release /p:Platform=\"Any CPU\""
             }
         }
         
@@ -34,7 +33,7 @@ pipeline {
         stage('4. Publicar aplicación') {
             steps {
                 echo 'Generando archivos de publicación limpia en carpeta temporal...'
-                bat "\"${MSBUILD}\" Monolito_4am.sln /p:DeployOnBuild=true /p:DeployDefaultTarget=WebPublish /p:WebPublishMethod=FileSystem /p:DeleteExistingFiles=true /p:publishUrl=C:\\JenkinsPublish\\Monolito"
+                bat "\"${MSBUILD}\" Monolito_4am.slnx /p:DeployOnBuild=true /p:DeployDefaultTarget=WebPublish /p:WebPublishMethod=FileSystem /p:DeleteExistingFiles=true /p:publishUrl=C:\\JenkinsPublish\\Monolito"
             }
         }
 
