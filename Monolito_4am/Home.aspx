@@ -176,7 +176,7 @@
     <form id="form1" runat="server">
         <div class="container">
             <h1 class="logo-main">Monolito</h1>
-            <p class="tagline">Monolito desplegado por Jenkins</p>
+            <p class="tagline">Monolito - Jenkins</p>
 
             <div class="grid-buttons">
                 <!-- Opción Login -->
